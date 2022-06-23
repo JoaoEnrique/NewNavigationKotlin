@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/oneFragment">
+
+    <fragment
+        android:id="@+id/oneFragment"
+        android:name="com.example.newnavigation.oneFragment"
+        android:label="Tela Um"
+        tools:layout="@layout/fragment_one">
+        <action
+            android:id="@+id/action_oneFragment_to_twoFragment"
+            app:destination="@id/twoFragment" />
+        <action
+            android:id="@+id/action_oneFragment_to_threeFragment"
+            app:destination="@id/threeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/twoFragment"
+        android:name="com.example.newnavigation.twoFragment"
+        android:label="Tela Dois"
+        tools:layout="@layout/fragment_two">
+        <action
+            android:id="@+id/action_twoFragment_to_fourFragment"
+            app:destination="@id/fourFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/threeFragment"
+        android:name="com.example.newnavigation.threeFragment"
+        android:label="Tela Três"
+        tools:layout="@layout/fragment_three" >
+        <action
+            android:id="@+id/action_threeFragment_to_fiveFragment"
+            app:destination="@id/fiveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourFragment"
+        android:name="com.example.newnavigation.fourFragment"
+        android:label="Tela Quatro"
+        tools:layout="@layout/fragment_four" >
+        <action
+            android:id="@+id/action_fourFragment_to_sixFragment"
+            app:destination="@id/sixFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiveFragment"
+        android:name="com.example.newnavigation.fiveFragment"
+        android:label="Tela Cinco"
+        tools:layout="@layout/fragment_five" >
+        <action
+            android:id="@+id/action_fiveFragment_to_sixFragment"
+            app:destination="@id/sixFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sixFragment"
+        android:name="com.example.newnavigation.sixFragment"
+        android:label="Tela Seis"
+        tools:layout="@layout/fragment_six" >
+        <action
+            android:id="@+id/action_sixFragment_to_oneFragment"
+            app:destination="@id/oneFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NewNavigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Clique no botão e mude de fragmento</string>
+    <string name="fragmentOne">Clique no botão e mude de fragmento</string>
+    <string name="btnOne">Fragment Dois</string>
+    <string name="btnTwo">Fragment Três</string>
+    <string name="btnThree">Fragment Quatro</string>
+    <string name="btnFour">Fragment Cinco</string>
+    <string name="btnFive">Fragment Seis</string>
+    <string name="btnSix">Fragment Seis</string>
+    <string name="btnSeven">Fragment Um</string>
+</resources>
